@@ -1,0 +1,22 @@
+# /mnt/c/Users/email/AppData/Roaming/alacritty/
+
+[general]
+import = [
+  "/home/jake/.config/alacritty/carbonfox.toml"
+]
+
+[window]
+padding = {x = 10, y = 10}
+dynamic_padding = true
+decorations = 'none' # full or none
+opacity = 0.98
+#decorations_theme_variant = "Dark"
+
+
+[scrolling]
+multiplier = 2
+
+
+[font]
+normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+size = 13.0

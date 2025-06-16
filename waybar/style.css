@@ -1,0 +1,86 @@
+* {
+    font-family: "Hack Nerd Font Mono";
+    font-weight: bold;
+    font-size: 14px;
+}
+
+window#waybar {
+    border-radius: 10px;
+    /*background: #0d1117;*/
+    background: #000000;
+    color: #0099cc;
+}
+
+tooltip {
+    background: #0d1117;
+    border-radius: 10px;
+    border: 1px solid #21262d
+}
+
+tooltip label {
+    color: #0099cc;
+}
+
+#workspaces {
+    border-radius: 10px 10px 10px 10px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+#workspaces button {
+    min-width: 28px;
+    border-radius: 10px;
+    margin: 8px 0;
+}
+
+#workspaces button:not(:last-child) {
+    margin-right: 4px;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+#workspaces button.active,
+#workspaces button.active:hover {
+    background: #0099cc;
+    color: #0d1117;
+}
+
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#bluetooth,
+#temperature,
+#workspaces,
+#backlight {
+    padding: 0px 14px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+#tray {
+    padding: 0px 16px;
+}
+
+#network {
+    border-radius: 10px 0 0 10px;
+    padding-left: 24px;
+}
+
+#battery.warning {
+    color: orange;
+}
+
+#battery.critical {
+    color: red;
+}
+
+#temperature.critical {
+    color: red;
+}
+
+#clock {
+    padding-right: 16px;
+    border-radius: 0 10px 10px 0;
+}
